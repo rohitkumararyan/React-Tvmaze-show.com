@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
         <nav  className="navbar_nav">
           <h3 className="nav_brand">
               <Link to='/'>
-              <i className="fas fa-video"> Tv show Serach</i>
+              <i className="fas fa-video"> Tv show Search</i>
             </Link>
           </h3>
           <ul  className="links">

@@ -43,8 +43,8 @@ body{
   border: 2px solid #fff;
 }
 .links_link a:hover{
-  border-bottom: 1px solid darkgreen;
-  color: darkgreen;
+  border-bottom: 1px solid rgb(247, 77, 15);
+  color: rgb(219, 81, 12);
 }
 
 /*serch for style*
