@@ -11,87 +11,66 @@ body{
 
 .navbar{
   padding: 1rem;
-  background: rgb(16, 105, 111);
+  background: rgb(41, 53, 56);
 }
+
 .navbar_nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
 
 }
-.nav_brand a{
-   font: 1em sans-serif;
-   color:#fff;
-   text-decoration: none;
-}
-.nav_brand a:hover{
-   color: darkgreen;
+.logo{
+  width: 220px;
 }
 
 .links{
-  display: flex;
-  list-style: none;
-  align-items: center;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:22px;
+    padding-left: 334px;
+    margin-top: 12px;
 }
 .links_link a{
-  display:flex ;
   padding: 1em;
   color:#fff;
   text-decoration: none;
   margin: 0.5rem;
   border: 2px solid #fff;
+  border-radius: 20px;
+  flex: end;
+  align-items: center;
 }
 .links_link a:hover{
   border-bottom: 1px solid rgb(247, 77, 15);
   color: rgb(219, 81, 12);
+  background-color:violet;
+}
+@media screen and (max-width: 500px) {
+  
+ 
+ .logo{
+   width: 100px;
+ }
+ .links{
+  width: 200px;
+  height:20px ;
+  padding-left: 112px;
+
+ }
+ .links_link{
+  width:222px ;
+ }
 }
 
 /*serch for style*
-
-
-/* aboutpages */
-.Homepage{
-  display: flex;
-  justify-content:center ;
-  width: 100%;
-  align-items: center;
-  height: 600px;
-  background:
-   url('pages/b1.jpg');
-}
-.backgraund{
-  display: block;
-  align-items: center;
-  justify-content: center;
-  width: 90%;
-  height: 480px;
-  background: linear-gradient( 45deg,
-  rgba(34, 34, 36, 0.8) 0%,
-   rgba(33, 33, 33, 0.8)100%), 
-   url('pages/b1.jpg');
-}
-.text {
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-}
-.text2{
-  color: #fff;
-  font: 1em sans-serif;
-  font-size: 30px;
-}
-.text3{
-  color: #fff;
-}
-.text-center{
-  color: chocolate;
-}
-
 /*summy*/
 
 
 .footer{
+
+  margin-top: 300px;
   width: 100%;
   height: 120px;
   display: flex;
@@ -99,13 +78,15 @@ body{
   justify-content: center;
   align-items: center;
   background: linear-gradient( 45deg,
-  rgba(29, 143, 109, 0.8) 0%,
-   rgba(33, 33, 33, 0.8)100%), 
-   url('pages/b1.jpg');
+  rgba(62, 64, 64, 0.8) 0%,
+   rgba(33, 32, 32, 0.8)100%), 
+  
+  
+   url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZasCgCcqpweosWRSt_bIfvAv7HykDBcxqiA&usqp=CAU');
 }
-
-
-
-
-
-
+@media screen and (max-width: 576px) {
+  .footer{
+     font-size: 12px;
+     align-items: center;
+  }
+}

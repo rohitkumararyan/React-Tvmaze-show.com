@@ -1,7 +1,6 @@
 
 
 import React from 'react'
-import Main from '../Components/Main'
 
 
 
@@ -11,15 +10,7 @@ const Homepage = () => {
     <>
   
     <div className='Homepage'>
-      
-      <div className='backgraund'>
-        <h1 className='text'>Tvmaze</h1>
-        <p className='text2'>Select Your favourite Show</p>
-      
-        <Main/>
-    
-
-      </div>
+      <h1>This is Homepage</h1>
 
       
     </div>

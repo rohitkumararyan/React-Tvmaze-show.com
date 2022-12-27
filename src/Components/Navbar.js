@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+
+
  const Navbar = () => {
   return (
     <nav className='navbar'>
@@ -6,7 +8,7 @@ import { Link } from "react-router-dom"
         <nav  className="navbar_nav">
           <h3 className="nav_brand">
               <Link to='/'>
-              <i className="fas fa-video"> Tv show Search</i>
+              <img className="logo" src="	https://static.tvmaze.com/images/tvm-header-logo.png"></img>
             </Link>
           </h3>
           <ul  className="links">
